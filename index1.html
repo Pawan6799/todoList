@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main-body">
+        <div class="header">
+           <div class="heading">PAWAN</div>
+           <div class="btn">
+               <div class="plus" id="addbtn">+</div>
+           </div>
+        </div>
+        <div class="content" id="main">
+            
+        </div>
+        <div class="footer">@PawanKumarYadav</div>
+    </div>
+    <div class="dialog-box" id="dialogBox">
+        <div class="dialog">
+            <div class="dialog-header">
+                <div class="dialog-heading">
+                    <input type="text" placeholder="Enter Tittle" id="title">
+                </div>
+                <div class="cross" id="cross">x</div>
+            </div>
+            <div class="dialog-body">
+                <textarea id="todotext" placeholder="Enter Desc"></textarea>
+            </div>
+            <div class="error hide" id="eros">
+                Title or description is cannot be empty.
+            </div>
+            <div class="submit">
+                <button onclick="addtodo()" class="submitbtn">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.main-body{
+    display: grid;
+    grid-template-rows: 35px auto 35px;
+    height: 100%;
+}
+.header{
+    background-color: aqua;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+
+}
+.header .btn{
+    margin-left: auto;
+}
+.btn{
+
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin:10px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.btn .plus{
+ font-weight: 800;
+ font-size: x-large;
+ color: blue;
+
+}
+.plus:hover{
+    transform: scale(1.5);
+}
+.content{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:tomato;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+.box .box-header{
+    width: 100%;
+    height: 30px;
+    background-color: aquamarine;
+    display: flex;
+    
+    
+}
+.box .box-header .heading{
+    padding: 2px;
+    margin: 2px;
+    
+}
+.btn-container button{
+
+    margin-left: 60px;
+    height: 25px;
+    width: 25px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.btn-container i{
+    font-size: 25px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box textarea{
+    width: 100%;
+    height: 85%;
+    border: 1px solid black;
+    outline: 1px solid black;
+    padding: 3px;
+}
+.dialog-box{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+
+.btn-container{
+    display: flex;
+}
+
+.dialog{
+    height: 230px;
+    width: 250px;
+    background-color: skyblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.dialog .dialog-header{
+    background-color: antiquewhite;
+    display: flex;
+    padding: 5px;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.dialog-heading input{
+    width: 160px;
+}
+.dialog-body{
+    height: 100px;
+    padding: 5px;
+}
+.dialog-body textarea{
+    height: 120%;
+    width: 100%;
+   
+    margin-top: 3px;
+}
+.dialog .submit{
+    display: flex;
+    margin-top: 20px;
+    
+    justify-content: center;
+    
+}
+.submitbtn:hover {
+    color: blue;
+    font-weight: bold;
+}
+.cross{
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.error {
+    color: red;
+    font-weight:bold;
+    margin-top: 15px;
+    padding: 2px;
+}
+.hide{
+    display: none;
+}
+
+.footer{
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.
